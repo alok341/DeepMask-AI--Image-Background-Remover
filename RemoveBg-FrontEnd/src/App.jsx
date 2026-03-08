@@ -2,7 +2,7 @@ import { Routes, Route } from "react-router-dom";
 import { AppContextProvider } from "./context/AppContext";
 import Footer from "./components/Footer";
 import MenuBar from "./components/MenuBar";
-import Home from "./pages/home";
+import Home from "./pages/Home";
 import ImageTool from "./pages/ImageTool";
 import PricingPage from "./pages/PricingPage";  // Import the PricingPage
 import { Toaster } from "react-hot-toast";
