@@ -2,7 +2,7 @@
 import { createContext, useState, useContext, useEffect } from "react";
 import { useUser, useAuth } from "@clerk/clerk-react";
 import toast from 'react-hot-toast';
-import OrderService from "../services/OrderService";
+import OrderService from "../services/orderService";
 
 const AppContext = createContext();
 
